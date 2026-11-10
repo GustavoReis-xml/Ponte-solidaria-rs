@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 408" fill="none">
+<defs>
+<pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" stroke="#91c3a5" stroke-opacity=".13"/></pattern>
+<linearGradient id="panel" x1="60" y1="0" x2="530" y2="410" gradientUnits="userSpaceOnUse"><stop stop-color="#286453"/><stop offset="1" stop-color="#1a4b3f"/></linearGradient>
+<pattern id="lines" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 0v5" stroke="#245245" stroke-width="1.8"/></pattern>
+</defs>
+<rect x="1" y="1" width="578" height="406" rx="22" fill="url(#panel)" stroke="#548675"/>
+<rect x="2" y="2" width="576" height="404" rx="21" fill="url(#grid)"/>
+<circle cx="327" cy="195" r="132" stroke="#8ab5a4" stroke-opacity=".43" stroke-dasharray="3 7"/>
+<circle cx="327" cy="195" r="157" stroke="#8ab5a4" stroke-opacity=".18"/>
+<path d="M34 303h495M34 315h495" stroke="#a2c0ac" stroke-opacity=".18"/>
+<path d="m64 210 38-38 35 19 54-54m271-11 32-32 32 16 24-24M474 265l28 17 32-22" stroke="#a0c7b3" stroke-opacity=".6" stroke-dasharray="4 5"/>
+<path d="M164 74v20m-10-10h20M476 187v24m-12-12h24M91 253v13m-6.5-6.5h13M401 58v12m-6-6h12" stroke="#d1dfca" stroke-opacity=".7" stroke-width="1.5"/>
+<path d="m158 294 153-43 149 39-151 50z" fill="#123b31" opacity=".7"/>
+<g stroke="#184638" stroke-width="2.5" stroke-linejoin="round">
+<path d="m145 230 96-38 122 39-91 43z" fill="#ffdc86"/><path d="m145 230 127 44v84l-127-42z" fill="#efac5c"/><path d="m272 274 91-43v87l-91 40z" fill="#bd773e"/>
+<path d="m184 214 18-7 128 40-18 9z" fill="#fff0b8" stroke="none"/>
+<path d="m188 249 19 7v28l-19-6z" fill="#ffdc86" stroke="none"/>
+<path d="m304 237 67-28 90 29-63 31z" fill="#f7edc9"/><path d="m304 237 94 32v67l-94-31z" fill="#d8bd91"/><path d="m398 269 63-31v68l-63 30z" fill="#af8a64"/>
+<path d="m331 226 17-7 91 29-15 8z" fill="#fff6dc" stroke="none"/>
+<path d="m227 159 72-32 106 35-69 36z" fill="#ebf1ce"/><path d="m227 159 109 39v76l-109-39z" fill="#aed3ab"/><path d="m336 198 69-36v76l-69 36z" fill="#6a9e83"/>
+<path d="m255 147 18-8 110 35-17 9z" fill="#fdf5d6" stroke="none"/>
+<path d="m366 183 17-9v27l-17 9z" fill="#e5e9b9" stroke="none"/>
+</g>
+<path d="M280 204c-4-9-17-11-17-1 0 9 17 22 17 22s17-3 17-12c0-10-13-15-17-9Z" fill="#2c6c55"/>
+<path d="m338 279 34 12v19l-34-11z" fill="#fcf5df"/><path d="m343 284 24 9v9l-24-9z" fill="url(#lines)"/>
+<path d="m227 292 30 10m-30-3 30 10m-30-3 22 8" stroke="#754b32" stroke-width="2" stroke-linecap="round"/>
+<path d="M518 60c0 11-15 23-15 23s-15-12-15-23a15 15 0 1 1 30 0Z" fill="#f8d281" stroke="#184638" stroke-width="2"/><circle cx="503" cy="60" r="4" stroke="#184638" stroke-width="2"/>
+<text x="28" y="34" fill="#dae8d6" font-family="monospace" font-size="12" letter-spacing="2">BASE DE DISTRIBUIÇÃO</text>
+</svg>

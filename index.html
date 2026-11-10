@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#143c32">
+<meta name="description" content="Portal demonstrativo de um centro de distribuição solidária no Rio Grande do Sul.">
+<title>Ponte Solidária RS</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.7a5.4 5.4 0 0 0-7.6 0L12 5.9l-1.2-1.2a5.4 5.4 0 0 0-7.6 7.6l1.2 1.2L12 21l7.6-7.5 1.2-1.2a5.4 5.4 0 0 0 0-7.6Z"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3Z"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><path d="M2 21v-3a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v3M16 4a3 3 0 0 1 0 6m6 11v-3a4 4 0 0 0-3-4"/></symbol>
+<symbol id="i-box" viewBox="0 0 24 24"><path d="m3 7 9-5 9 5v10l-9 5-9-5Zm0 0 9 5 9-5m-9 5v10M7.5 4.5l9 5"/></symbol>
+<symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 17V5h13v12H2m13-9h4l3 4v5h-3"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-grid" viewBox="0 0 24 24"><path d="M3 3h7v7H3zm11 0h7v7h-7zM3 14h7v7H3zm11 0h7v7h-7z"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+<symbol id="i-paw" viewBox="0 0 24 24"><ellipse cx="5" cy="10" rx="1.8" ry="2.5" transform="rotate(-25 5 10)"/><ellipse cx="9.4" cy="6.7" rx="1.8" ry="2.5"/><ellipse cx="14.6" cy="6.7" rx="1.8" ry="2.5"/><ellipse cx="19" cy="10" rx="1.8" ry="2.5" transform="rotate(25 19 10)"/><path d="M12 13c-2 0-2.7 1.5-4.4 3S5 20 8 20c1.6 0 2.4-.9 4-.9s2.4.9 4 .9c3 0 2.1-2.5.4-4s-2.4-3-4.4-3Z"/></symbol>
+<symbol id="i-camera" viewBox="0 0 24 24"><path d="M3 7h4l2-3h6l2 3h4v13H3z"/><circle cx="12" cy="13" r="3.3"/></symbol>
+</svg>
+<header class="top">
+ <div class="wrap nav">
+  <a class="brand" href="#inicio"><span class="brandmark"><svg class="icon"><use href="#i-heart"/></svg></span><span>Ponte Solidária <b>RS</b></span></a>
+  <nav aria-label="Principal"><a href="#servicos">Serviços</a><a href="#rastreio">Rastreio</a><a href="#kits">Kits</a><a href="#entregas">Entregas</a></nav>
+  <button class="btn outline" data-open="painel"><svg class="icon"><use href="#i-grid"/></svg> Painel da operação</button>
+ </div>
+</header>
+<main id="inicio" class="wrap">
+ <section class="hero" aria-labelledby="titulo">
+  <div class="hero-copy">
+   <p class="eyebrow hero-tag"><span></span> CENTRAL DE APOIO · RIO GRANDE DO SUL</p>
+   <h1 id="titulo">A ajuda chega<br>mais longe <em>juntos.</em></h1>
+   <p class="intro">Conectamos doações e voluntários a famílias afetadas no Rio Grande do Sul. Solicite apoio, contribua ou acompanhe o caminho da sua entrega.</p>
+   <div class="hero-buttons"><button class="btn yellow" data-open="familia">Solicitar apoio <svg class="icon"><use href="#i-arrow"/></svg></button><button class="btn hero-outline" data-open="doacao"><svg class="icon"><use href="#i-heart"/></svg> Quero doar</button></div>
+  </div>
+  <div class="hero-art">
+   <img src="central.svg" width="580" height="408" alt="Ilustração de caixas solidárias na base de distribuição">
+   <div class="goal"><strong>5.000</strong><span>pessoas<br>na meta de atendimento</span></div>
+  </div>
+ </section>
+ <section id="servicos" class="section">
+  <p class="eyebrow kicker">01 / SERVIÇOS DO PORTAL</p>
+  <h2>Como podemos ajudar?</h2>
+  <div class="cards">
+   <article class="card"><div class="tile green"><svg class="icon"><use href="#i-home"/></svg></div><h3>Solicitar apoio</h3><p>Cadastre sua família, informe suas necessidades e inclua cães e gatos no atendimento.</p><button class="link" data-open="familia">Cadastrar família <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+   <article class="card"><div class="tile peach"><svg class="icon"><use href="#i-heart"/></svg></div><h3>Fazer uma doação</h3><p>Veja como contribuir com alimentos, higiene, roupas sem uso ou uma doação em dinheiro.</p><button class="link" data-open="doacao">Ver opções de doação <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+   <article class="card"><div class="tile blue"><svg class="icon"><use href="#i-users"/></svg></div><h3>Ser voluntário</h3><p>Escolha como ajudar no recebimento, na triagem, na montagem de kits ou na distribuição.</p><button class="link" data-open="voluntario">Quero participar <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+  </div>
+ </section>
+ <section id="rastreio" class="tracking">
+  <div class="tracking-copy"><div class="tile green"><svg class="icon"><use href="#i-truck"/></svg></div><p class="eyebrow kicker">02 / RASTREIO</p><h2>Acompanhe seu kit</h2><p>Consulte o protocolo para ver em que etapa está a sua entrega.</p></div>
+  <div class="tracking-form"><form id="track-form"><label for="protocol">Código do protocolo</label><div class="input-row"><input id="protocol" name="protocol" placeholder="Ex.: PSRS-1042" maxlength="32" required><button class="btn solid" type="submit"><svg class="icon"><use href="#i-search"/></svg> Consultar</button></div></form><button type="button" id="sample" class="link example">Consultar o exemplo PSRS-1042 <svg class="icon"><use href="#i-arrow"/></svg></button><div id="track-result" aria-live="polite"></div></div>
+ </section>
+ <section id="kits" class="section kit-section">
+  <p class="eyebrow kicker">03 / O QUE DISTRIBUÍMOS</p><h2>Kits de atendimento</h2>
+  <p class="section-intro">Os itens variam conforme a necessidade e o estoque disponível na central.</p>
+  <div class="kit-grid">
+   <article class="kit"><div class="tile green"><svg class="icon"><use href="#i-box"/></svg></div><div><h3>Kit Solteiro</h3><p>Alimentos não perecíveis e itens de higiene pessoal para uma pessoa.</p></div></article>
+   <article class="kit"><div class="tile peach"><svg class="icon"><use href="#i-box"/></svg></div><div><h3>Kit Família</h3><p>Alimentos e higiene para o grupo familiar, com fraldas conforme a necessidade e o estoque.</p></div></article>
+   <article class="kit"><div class="tile blue"><svg class="icon"><use href="#i-paw"/></svg></div><div><h3>Kit Veterinário</h3><p>Ração adequada à espécie, pote para água e itens básicos de higiene para cães e gatos, conforme o estoque.</p></div></article>
+  </div>
+  <p class="pet-note">Informe quantos cães e gatos vivem com a família para solicitar o Kit Veterinário junto de um kit de atendimento ou separadamente.</p>
+  <button type="button" class="link kit-action" data-open="familia" data-kit="pet">Solicitar Kit Veterinário <svg class="icon"><use href="#i-arrow"/></svg></button>
+ </section>
+ <section class="delivery-callout" aria-labelledby="delivery-callout-title">
+  <div class="tile peach"><svg class="icon"><use href="#i-camera"/></svg></div>
+  <div><h2 id="delivery-callout-title">Galeria de entregas</h2><p>Conheça os tipos de atendimento em cenas ilustrativas.</p></div>
+  <a class="btn outline" href="#entregas">Ver galeria <svg class="icon"><use href="#i-arrow"/></svg></a>
+ </section>
+</main>
+<main id="entregas" class="wrap gallery-screen" aria-labelledby="gallery-title" hidden>
+ <a class="link gallery-back" href="#inicio">← Voltar ao portal</a>
+ <header class="gallery-header">
+  <div class="tile peach"><svg class="icon"><use href="#i-camera"/></svg></div>
+  <p class="eyebrow kicker">REGISTRO DE ATENDIMENTO</p>
+  <h1 id="gallery-title" tabindex="-1">Galeria de entregas</h1>
+  <p>Veja como os kits da central podem chegar às famílias e a seus animais.</p>
+ </header>
+ <p class="gallery-note"><strong>Cenas ilustrativas geradas por IA.</strong> As imagens representam situações fictícias de entrega.</p>
+ <div class="gallery-grid">
+  <figure class="gallery-card">
+   <button class="gallery-photo" type="button" data-photo aria-label="Ampliar foto do Kit Família"><img src="entrega-familia.webp" width="960" height="640" alt="Mãe e filha recebem uma caixa de alimentos de uma voluntária na central"></button>
+   <figcaption><span>Kit Família</span><h2>Alimentos para a casa</h2><p>Uma família recebe seu kit no ponto de distribuição.</p></figcaption>
+  </figure>
+  <figure class="gallery-card">
+   <button class="gallery-photo" type="button" data-photo aria-label="Ampliar foto da entrega de itens de higiene"><img src="entrega-higiene.webp" width="960" height="640" alt="Casal idoso recebe uma caixa com itens de higiene de um voluntário"></button>
+   <figcaption><span>Itens de higiene</span><h2>Cuidado no dia a dia</h2><p>Uma entrega com itens de higiene pessoal e toalhas.</p></figcaption>
+  </figure>
+  <figure class="gallery-card">
+   <button class="gallery-photo" type="button" data-photo aria-label="Ampliar foto do Kit Veterinário"><img src="entrega-veterinaria.webp" width="960" height="640" alt="Família recebe um kit com ração e pote de água ao lado de um cachorro caramelo"></button>
+   <figcaption><span>Kit Veterinário</span><h2>Apoio para quem tem pets</h2><p>Uma família recebe itens básicos para cuidar de seu cachorro.</p></figcaption>
+  </figure>
+ </div>
+</main>
+<footer><div class="wrap footer-inner"><a class="brand" href="#inicio"><span class="brandmark"><svg class="icon"><use href="#i-heart"/></svg></span><span>Ponte Solidária <b>RS</b></span></a><p>Protótipo acadêmico · Projeto CIEE</p><a href="#inicio">Voltar ao início ↑</a></div></footer>
+<dialog id="portal-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><div><p class="eyebrow kicker" id="dialog-kicker"></p><h2 id="dialog-title"></h2></div><button type="button" class="close" aria-label="Fechar">×</button></div><div id="dialog-content"></div></dialog>
+<dialog id="gallery-dialog" aria-labelledby="gallery-photo-title">
+ <div class="dialog-head"><div><p class="eyebrow kicker">IMAGEM ILUSTRATIVA · GERADA POR IA</p><h2 id="gallery-photo-title"></h2></div><form method="dialog"><button type="submit" class="close" aria-label="Fechar foto">×</button></form></div>
+ <img id="gallery-image" alt="">
+</dialog>
+</body>
+</html>
